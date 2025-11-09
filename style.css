@@ -1,0 +1,114 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #dce6f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ===== Page Layout ===== */
+.page-wrapper {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Contact Box ===== */
+.contact-box {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  width: 100%;
+  padding: 40px;
+  transition: all 0.3s ease;
+  
+}
+
+.contact-box:hover {
+  border-color: #0A2540;
+  box-shadow: 0 10px 25px rgba(10, 37, 64, 0.2);
+  transform: translateY(-3px);
+}
+
+/* ===== Header ===== */
+.contact-box h2 {
+  text-align: center;
+  color: #0A2540;
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+/* ===== Form ===== */
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 15px;
+  background-color: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0A2540;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(10, 37, 64, 0.2);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+/* ===== Button ===== */
+.btn-primary {
+  width: 100%;
+  background-color: #0A2540;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #173a68;
+  transform: scale(1.03);
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
